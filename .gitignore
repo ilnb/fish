@@ -1,0 +1,13 @@
+fish_variables*
+!fish_variables.bak
+
+completions/fisher.fish
+functions/fisher.fish
+
+conf.d/_tide_init.fish
+completions/tide.fish
+functions/tide.fish
+functions/_tide_*
+functions/fish_mode_prompt.fish
+functions/fish_prompt.fish
+functions/tide/configure
