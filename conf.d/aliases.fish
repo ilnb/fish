@@ -78,7 +78,7 @@ if not test -z "$aurhelper"
 else if command -qs emerge
   alias pl 'equery l -p'
   alias pa 'emerge -s'
-  alias pc 'sudo rm -r /var/cache/distfiles/*'
+  alias pc 'sudo eclean-dist -d; sudo eclean-pkg -d'
   alias in 'sudo emerge'
   alias un 'sudo emerge --unmerge'
   alias up 'sudo emerge -uDN --with-bdeps=y @world'
