@@ -81,7 +81,7 @@ else if command -qs emerge
   alias pc 'sudo rm -r /var/cache/distfiles/*'
   alias in 'sudo emerge'
   alias un 'sudo emerge --unmerge'
-  alias up 'sudo emerge -uDN --changed-deps --with-bdeps=y @world'
+  alias up 'sudo emerge -uDN --with-bdeps=y @world'
 end
 
 # ---- Misc ----
